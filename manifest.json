@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Shadow",
+  "version": "1.0.0",
+  "description": "Shadow from Sonic being mean at me",
+  "icons": {
+    "16": "icon/shadow.jpeg",
+    "48": "icon/shadow.jpeg",
+    "128": "icon/shadow.jpeg"
+  },
+  "action": {
+    "default_icon": "icon/shadow.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["Content.js"]
+    }
+  ]
+}

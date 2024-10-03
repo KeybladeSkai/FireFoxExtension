@@ -1,0 +1,6 @@
+Goal -> I want to make a firefox addon that will replace all the images in my youtube page,to avoid distractions
+ 
+
+Steps
+.Identify all images on the youtube webpage
+.change the image to shadows own
